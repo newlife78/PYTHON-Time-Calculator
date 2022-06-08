@@ -1,9 +1,11 @@
+Program Description:
+
 Program that takes in two required parameters and one optional parameter:
     . A start time in the 12-hour clock format (ending in AM or PM)
     . A duration time that indicates the number of hours and minutes
-    . Optional: a starting day of the week, case insensitive
+    . (optional) a starting day of the week, that is case insensitive
 
-The program add the duration time to the start time and return the result.
+The program will add the duration time to the start time and return the result.
 
 If the result will be the next day, it will show (next day) after the time.
 
@@ -11,7 +13,7 @@ If the result will be more than one day later, it will show (n days later) after
 "n"is the number of days later.
 
 If the program is given the optional starting day of the week parameter, then the output will
-display the day of the week of the result. The day of the week in the output should appear after
+display the day of the week of the result. The day of the week in the output will appear after
 the time and before the number of days later.
 
 Below are some examples of different cases the program will handle:
